@@ -62,24 +62,33 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Hangman Game",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I worked as a student of re:coded bootcamp to build a hangman game. It has features like play again, fetching random words from API and game functionality.",
+    tags: ["HTML", "CSS", "JavaScript", "API"],
     imageUrl: hangman,
   },
   {
-    title: "rmtDev",
+    title: "Mudemy",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Its a clone of Udemy. It has features like login, register, enroll, search, filter, pagination, etc.",
+    tags: [
+      "React",
+      "Next.js",
+      "Tailwind",
+      "Redux-Toolkit",
+      "Firebase",
+      "Auth",
+      "React-Hook-Form",
+      "Swiper",
+    ],
     imageUrl: Mudemy,
   },
   {
-    title: "Word Analytics",
+    title: "Netflix Clone",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Its a movie streaming app. Tmdb API is used to fetch movies and shows. It has features like  search, filter, pagination, etc. ",
+    tags: ["HTML", "JavaScript", "Tailwind", "API"],
     imageUrl: netflix,
   },
 ] as const;
@@ -88,20 +97,16 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
+  "Firebase",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Redux-Toolkit",
+  "React-Hook-Form",
+  "Swiper",
+  "Clerk",
+  
+
 ] as const;

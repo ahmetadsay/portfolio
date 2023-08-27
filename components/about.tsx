@@ -19,30 +19,23 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        👋 Hello! 🧑‍🎓 I'm a front-end developer with a background in civil
+        engineering. I graduated re:coded's front-end web development bootcamp.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      <p className="mb-3">
+        📚 After working as a field engineer for 2 years, I discovered my
+        passion for coding while working on a personal project. I found coding
+        to be fun and enjoyable due to my love for problem-solving, and I have
+        since been working hard to improve my skills. I've learned programming
+        languages such as ReactJS and NextJs, and gained experience with
+        React-Redux through various training programs and self-study.
+      </p>
+
+      <p className="mb-3">
+        🎯 I keep myself mentally and physically fit by reading books and
+        exercising regularly. As someone with high self-awareness, my goal is to
+        work for a productive and socially responsible company in the future.
       </p>
     </motion.section>
   );
