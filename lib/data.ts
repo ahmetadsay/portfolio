@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import hangman from "../public/hangman.jpg";
 import Mudemy from "../public/Mudemy.png";
 import netflix from "../public/netflix.png";
+import ntv from "../public/ntv.png";
 
 export const links = [
   {
@@ -60,6 +61,7 @@ export const projectsData = [
       "I worked as a student of re:coded bootcamp to build a hangman game. It has features like play again, fetching random words from API and game functionality.",
     tags: ["HTML", "CSS", "JavaScript", "API"],
     imageUrl: hangman,
+    link: "https://tourmaline-figolla-07c45c.netlify.app/"
   },
   {
     title: "Mudemy",
@@ -76,6 +78,7 @@ export const projectsData = [
       "Swiper",
     ],
     imageUrl: Mudemy,
+    link: "https://mudemy.netlify.app/tr"
   },
   {
     title: "Netflix Clone",
@@ -83,7 +86,22 @@ export const projectsData = [
       "Its a movie streaming app. Tmdb API is used to fetch movies and shows. It has features like  search, filter, pagination, etc. ",
     tags: ["HTML", "JavaScript", "Tailwind", "API"],
     imageUrl: netflix,
+    link: "https://movieprojectre-coded.netlify.app/"
   },
+  {
+    title: "NTV News Clone",
+    description:"I built the Otomobile page in this project and created the page structures using Figma and distributed them to the team."
+    ,
+    tags: [
+      "React",
+      "Tailwind",
+      "Redux-Toolkit",
+      "React-Hook-Form",
+      "Swiper",
+    ],
+    imageUrl: ntv,
+    link: "https://kodluyoruz-news.vercel.app/"
+  }
 ] as const;
 
 export const skillsData = [

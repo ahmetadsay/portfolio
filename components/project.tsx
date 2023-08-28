@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Link from "next/link";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -12,6 +13,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  link,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -47,7 +49,7 @@ export default function Project({
             ))}
           </ul>
         </div>
-
+        <a href={link} target="_blank" rel="noopener noreferrer">
         <Image
           src={imageUrl}
           alt="Project I worked on"
@@ -65,6 +67,7 @@ export default function Project({
 
         group-even:right-[initial] group-even:-left-40"
         />
+        </a>
       </section>
     </motion.div>
   );
