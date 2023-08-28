@@ -3,7 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
-import Ahemt from "../public/Ahmet Adsay_Türkiye_2023.jpeg";
+import Ahemt from "../public/ahmet.jpeg";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
