@@ -19,15 +19,15 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        👋 Hello! 🧑‍🎓 I'm a front-end developer with a background in civil
-        engineering. I graduated re:coded's front-end web development bootcamp.
+        👋 Hello! 🧑‍🎓 Im a front-end developer with a background in civil
+        engineering. I graduated re:coded front-end web development bootcamp.
       </p>
 
       <p className="mb-3">
         📚 After working as a field engineer for 2 years, I discovered my
         passion for coding while working on a personal project. I found coding
         to be fun and enjoyable due to my love for problem-solving, and I have
-        since been working hard to improve my skills. I've learned programming
+        since been working hard to improve my skills. Ive learned programming
         languages such as ReactJS and NextJs, and gained experience with
         React-Redux through various training programs and self-study.
       </p>
