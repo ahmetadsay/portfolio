@@ -35,29 +35,22 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Re:coded Bootcamp",
+    location: "Turkey",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    "Completing a 4.5-month immersive web development bootcamp, with 300+ hours of curricula and project-based learning.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023-present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Kodluyoruz Bootcamp",
+    location: "Turkey",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Kodluyoruz bootcamp is one of the most effective bootcamps in Turkey with a high-paced, intensive program and an acceptance rate of around 5-6% with a total of 5 different projects including the final project.",
+      icon: React.createElement(LuGraduationCap),
+    date: "2022",
   },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+
 ] as const;
 
 export const projectsData = [
@@ -107,6 +100,6 @@ export const skillsData = [
   "React-Hook-Form",
   "Swiper",
   "Clerk",
-  
+
 
 ] as const;
